@@ -1,0 +1,11 @@
+/* Styles specific to employee module pages */
+.task-quick-actions { display:flex; gap:0.5rem; }
+.table-container { overflow-x: auto; }
+.table-actions .btn { margin-right: 0.25rem; }
+.glass-input, .form-control { padding: 0.5rem; border-radius: 6px; }
+.badge-light { background: #f8f9fa; color: #333; }
+
+/* Small responsive tweaks */
+@media (max-width: 768px) {
+    .task-quick-actions { flex-direction: column; }
+}
